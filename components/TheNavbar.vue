@@ -2,18 +2,32 @@
   <nav
     class="sticky top-0 flex items-center justify-between bg-white bg-opacity-80 p-10 md:py-10 dark:bg-mirage-950"
   >
-    <div class="font-semibold"><span class="text-primary">P</span>P</div>
+    <div class="font-semibold text-2xl cursor-pointer">
+      <span class="text-primary">P</span>P
+    </div>
 
     <div class="hidden md:flex justify-between items-center gap-x-20">
-      <div class="cursor-pointer">Home</div>
-      <div class="cursor-pointer">Skills</div>
-      <div class="cursor-pointer">Projects</div>
-      <div class="cursor-pointer">Contact</div>
+      <div class="cursor-pointer hover:text-primary">Home</div>
+      <div class="cursor-pointer hover:text-primary">Skills</div>
+      <div class="cursor-pointer hover:text-primary">Projects</div>
+      <div class="cursor-pointer hover:text-primary">Contact</div>
     </div>
 
     <div class="flex items-center justify-between gap-x-3">
-      <UIcon class="text-2xl" name="i-mdi-github" dynamic />
-      <UIcon class="text-2xl" name="i-mdi-linkedin" dynamic />
+      <ULink to="https://github.com/peterpardo" target="_blank">
+        <UIcon
+          class="text-2xl hover:text-primary cursor-pointer"
+          name="i-mdi-github"
+          dynamic
+        />
+      </ULink>
+      <ULink to="https://www.linkedin.com/in/pcmpardo/" target="_blank">
+        <UIcon
+          class="text-2xl hover:text-primary cursor-pointer"
+          name="i-mdi-linkedin"
+          dynamic
+        />
+      </ULink>
       <UToggle v-model="isDarkMode" />
       <UButton
         class="block md:hidden ml-4"
@@ -31,10 +45,10 @@
       class="absolute h-screen p-10 w-full z-10 top-20 left-0 bg-white dark:bg-mirage-950"
     >
       <ul>
-        <li class="py-2">Home</li>
-        <li class="py-2">Skills</li>
-        <li class="py-2">Projects</li>
-        <li class="py-2">Contact</li>
+        <li class="py-2 cursor-pointer hover:text-primary">Home</li>
+        <li class="py-2 cursor-pointer hover:text-primary">Skills</li>
+        <li class="py-2 cursor-pointer hover:text-primary">Projects</li>
+        <li class="py-2 cursor-pointer hover:text-primary">Contact</li>
       </ul>
     </div>
   </nav>
