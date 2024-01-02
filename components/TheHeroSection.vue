@@ -1,11 +1,11 @@
 <template>
-  <div class="h-[85vh] p-10 grid place-content-center">
+  <div class="h-[95vh] px-10 grid place-content-center">
     <div class="flex flex-col items-center justify-center gap-y-10">
       <h1 class="text-6xl text-center font-bold md:text-7xl">
         <span class="text-primary">Peter</span> Pardo
       </h1>
       <p
-        class="max-w-[700px] text-gray-500 text-center text-sm leading-loose md:text-md"
+        class="max-w-[700px] text-gray-400 text-center text-sm leading-loose md:text-md"
       >
         I'm a full-stack web developer. I love to start projects but most of
         them are not finished. In my spare time, I browse facebook, instagram,
