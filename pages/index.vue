@@ -4,11 +4,12 @@
     :ui="{
       padding: 'px-0 sm:px-0 lg:px-8',
     }"
-  > 
+  >
     <TheNavbar />
     <TheHeroSection />
     <TheSkillsSection />
-    <TheProjectsSection/>
+    <TheProjectsSection />
+    <TheContactSection />
   </div>
 </template>
 

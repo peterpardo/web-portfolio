@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen px-10 pt-40 grid place-content-center w-full">
+  <div class="min-h-screen px-10 py-40 grid place-content-center w-full">
     <div class="flex flex-col items-center justify-center gap-y-10">
       <h1 class="text-6xl text-center font-semibold">
         My <span class="text-primary">Projects</span>
