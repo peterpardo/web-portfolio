@@ -7,7 +7,7 @@
   >
     <TheNavbar />
 
-    <div class="p-10 h-screen">Hello</div>
+    <TheHeroSection />
   </UContainer>
 </template>
 
