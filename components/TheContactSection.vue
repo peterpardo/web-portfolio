@@ -1,5 +1,6 @@
 <template>
   <div
+    ref="contactRef"
     class="bg-mirage-950 text-white min-h-screen px-10 py-40 grid place-content-center w-full"
   >
     <div class="flex flex-col items-center justify-center gap-y-10">
@@ -27,6 +28,12 @@
 </template>
 
 <script setup lang="ts">
+const contactRef = ref<HTMLElement | null>(null);
+
+defineExpose({
+  contactRef,
+});
+
 const contacts = [
   {
     platform: 'Gmail',

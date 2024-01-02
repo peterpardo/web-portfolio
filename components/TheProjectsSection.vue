@@ -1,5 +1,8 @@
 <template>
-  <div class="min-h-screen px-10 py-40 grid place-content-center w-full">
+  <div
+    ref="projectsRef"
+    class="min-h-screen px-10 py-40 grid place-content-center w-full"
+  >
     <div class="flex flex-col items-center justify-center gap-y-10">
       <h1 class="text-6xl text-center font-semibold">
         My <span class="text-primary">Projects</span>
@@ -34,7 +37,7 @@
 
           <div class="flex gap-x-2 justify-end items-center mt-auto p-4">
             <UButton color="gray" :to="project.githubLink" target="_blank">
-              <UIcon name="i-mdi-github" dynamic  class="text-lg"/>
+              <UIcon name="i-mdi-github" dynamic class="text-lg" />
               Code
             </UButton>
             <UButton
@@ -53,6 +56,12 @@
 </template>
 
 <script setup lang="ts">
+const projectsRef = ref<HTMLElement | null>(null);
+
+defineExpose({
+  projectsRef,
+});
+
 const projects = [
   {
     name: 'Threads Clone',

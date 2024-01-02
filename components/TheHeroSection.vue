@@ -1,5 +1,5 @@
 <template>
-  <div class="h-[95vh] px-10 grid place-content-center">
+  <div ref="homeRef" class="h-[95vh] px-10 grid place-content-center">
     <div class="flex flex-col items-center justify-center gap-y-10">
       <h1 class="text-6xl text-center font-bold md:text-7xl">
         <span class="text-primary">Peter</span> Pardo
@@ -25,4 +25,10 @@
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+const homeRef = ref<HTMLElement | null>(null);
+
+defineExpose({
+  homeRef,
+});
+</script>

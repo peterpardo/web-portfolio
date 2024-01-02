@@ -1,5 +1,6 @@
 <template>
   <div
+    ref="skillsRef"
     class="bg-mirage-950 text-white min-h-[110vh] px-10 py-40 grid place-content-center w-full"
   >
     <div class="flex flex-col md:flex-row md:justify-between w-full gap-10">
@@ -57,6 +58,12 @@
 </template>
 
 <script setup lang="ts">
+const skillsRef = ref<HTMLElement | null>(null);
+
+defineExpose({
+  skillsRef,
+});
+
 const devIcons = [
   'i-devicon-react',
   'i-devicon-vuejs',
