@@ -38,7 +38,7 @@ const contacts = [
   {
     platform: 'Gmail',
     icon: 'i-mdi-gmail',
-    detail: 'peterpardo123@gmail.com',
+    detail: 'pcmpardo@gmail.com',
   },
   {
     platform: 'Github',
