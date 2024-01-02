@@ -8,6 +8,7 @@
     <TheNavbar />
     <TheHeroSection />
     <TheSkillsSection />
+    <TheProjectsSection/>
   </div>
 </template>
 

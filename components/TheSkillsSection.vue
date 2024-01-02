@@ -1,10 +1,10 @@
 <template>
   <div
-    class="bg-mirage-950 text-white h-screen px-10 grid place-content-center w-full"
+    class="bg-mirage-950 text-white min-h-[110vh] px-10 py-40 grid place-content-center w-full"
   >
-    <div class="flex flex-col md:flex-row md:justify-between w-full gap-5">
+    <div class="flex flex-col md:flex-row md:justify-between w-full gap-10">
       <div class="flex flex-col flex-1 justify-start gap-y-5">
-        <h1 class="font-semibold text-5xl">
+        <h1 class="font-semibold text-6xl">
           My
           <span class="text-primary">Skills</span>
         </h1>
@@ -47,9 +47,9 @@
       <div class="grid grid-cols-4 gap-y-5 flex-1">
         <div
           v-for="icon in devIcons"
-          class="grid place-items-center mx-auto border border-white w-20 h-20 rounded-md"
+          class="grid place-items-center mx-auto border border-white w-16 h-16 rounded-md md:w-20 md:h-20"
         >
-          <UIcon :name="icon" class="w-14 h-14" dynamic />
+          <UIcon :name="icon" class="w-10 h-10 md:w-14 md:h-14" dynamic />
         </div>
       </div>
     </div>
