@@ -13,12 +13,13 @@
         for new trending technologies in the programming world.
       </p>
       <div class="w-full flex items-center justify-center gap-x-5">
-        <UButton color="gray">
+        <UButton color="gray" @click="$emit('scroll-to', 'contact')">
           <UIcon name="i-ic-baseline-waving-hand" dynamic />
           Say Hello!
         </UButton>
-        <UButton>
-          <UIcon name="i-ic-baseline-rocket-launch" dynamic /> See my works
+        <UButton @click="$emit('scroll-to', 'projects')">
+          <UIcon name="i-ic-baseline-rocket-launch" dynamic />
+          See my works
         </UButton>
       </div>
     </div>
@@ -31,4 +32,6 @@ const homeRef = ref<HTMLElement | null>(null);
 defineExpose({
   homeRef,
 });
+
+defineEmits(['scroll-to']);
 </script>

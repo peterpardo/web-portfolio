@@ -1,7 +1,7 @@
 <template>
   <nav
     :class="{
-      'bg-opacity-80': !isMenuOpen,
+      'bg-opacity-95': !isMenuOpen,
     }"
     class="sticky top-0 bg-white dark:bg-mirage-950"
   >

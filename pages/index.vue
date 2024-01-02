@@ -10,7 +10,7 @@
       :is-menu-open="isMenuOpen"
       @handle-menu="handleMenu"
     />
-    <TheHeroSection ref="homeRef" />
+    <TheHeroSection ref="homeRef" @scroll-to="scrollTo" />
     <TheSkillsSection ref="skillsRef" />
     <TheProjectsSection ref="projectsRef" />
     <TheContactSection ref="contactRef" />
