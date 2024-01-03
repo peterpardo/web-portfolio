@@ -1,7 +1,10 @@
 <template>
   <div ref="homeRef" class="h-[95vh] px-10 grid place-content-center">
     <div class="flex flex-col items-center justify-center gap-y-10">
-      <h1 class="text-6xl text-center font-bold md:text-7xl">
+      <h1
+        class="text-6xl text-center font-bold md:text-7xl"
+        v-motion-pop-visible
+      >
         <span class="text-primary">Peter</span> Pardo
       </h1>
       <p

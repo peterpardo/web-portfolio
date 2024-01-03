@@ -3,7 +3,10 @@
     ref="contactRef"
     class="bg-mirage-950 text-white min-h-screen px-10 py-40 grid place-content-center w-full"
   >
-    <div class="flex flex-col items-center justify-center gap-y-10">
+    <div
+      class="flex flex-col items-center justify-center gap-y-10"
+      v-motion-roll-visible-top
+    >
       <h1 class="text-6xl text-center font-semibold">
         Contact <span class="text-primary">Me</span>
       </h1>

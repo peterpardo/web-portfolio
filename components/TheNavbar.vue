@@ -3,7 +3,7 @@
     :class="{
       'bg-opacity-95': !isMenuOpen,
     }"
-    class="sticky top-0 bg-white dark:bg-mirage-950"
+    class="sticky top-0 z-10 bg-white dark:bg-mirage-950"
   >
     <UContainer
       class="w-full flex items-center justify-between px-10 py-5 md:py-5 dark:bg-mirage-950"
