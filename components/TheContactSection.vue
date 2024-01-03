@@ -5,7 +5,7 @@
   >
     <div
       class="flex flex-col items-center justify-center gap-y-10"
-      v-motion-roll-visible-top
+      v-motion-slide-visible-bottom
     >
       <h1 class="text-6xl text-center font-semibold">
         Contact <span class="text-primary">Me</span>

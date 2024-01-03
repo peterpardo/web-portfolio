@@ -3,11 +3,11 @@
     ref="skillsRef"
     class="bg-mirage-950 text-white min-h-[110vh] px-10 py-40 grid place-content-center w-full"
   >
-    <div class="flex flex-col md:flex-row md:justify-between w-full gap-10">
-      <div
-        class="flex flex-col flex-1 justify-start gap-y-5"
-        v-motion-slide-visible-left
-      >
+    <div
+      class="flex flex-col md:flex-row md:justify-between w-full gap-10"
+      v-motion-slide-visible-left
+    >
+      <div class="flex flex-col flex-1 justify-start gap-y-5">
         <h1 class="font-semibold text-6xl">
           My
           <span class="text-primary">Skills</span>
@@ -48,7 +48,7 @@
           </ul>
         </div>
       </div>
-      <div class="grid grid-cols-4 gap-y-5 flex-1" v-motion-slide-visible-right>
+      <div class="grid grid-cols-4 gap-y-5 flex-1">
         <div
           v-for="icon in devIcons"
           class="grid place-items-center mx-auto border border-white w-16 h-16 rounded-md md:w-20 md:h-20"
