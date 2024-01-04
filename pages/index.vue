@@ -18,6 +18,19 @@
 </template>
 
 <script setup lang="ts">
+useSeoMeta({
+  title: 'Peter Pardo',
+  description: 'This is the web portofilio of Peter Pardo',
+  ogTitle: 'Peter Pardo',
+  ogDescription: 'This is the web portofilio of Peter Pardo',
+  ogImage: '/images/hero-img.png',
+  ogUrl: 'https://www.peterpardo.dev',
+  twitterTitle: 'Peter Pardo',
+  twitterDescription: 'This is the web portofilio of Peter Pardo',
+  twitterImage: '/images/hero-img.png',
+  twitterCard: 'summary_large_image',
+});
+
 const homeRef = ref(null);
 const skillsRef = ref(null);
 const projectsRef = ref(null);
