@@ -72,6 +72,14 @@
 
   const projects = [
     {
+      name: "Next - Blog App",
+      description:
+        "This was made using Next.js, Tailwindcss, Prisma, and Supabase.",
+      image: "/images/next-blog-app-img.png",
+      githubLink: "https://github.com/peterpardo/next-blog-app",
+      demoLink: "https://next-blog-app-six-ebon.vercel.app/",
+    },
+    {
       name: "Nuxt - Blog App",
       description:
         "This was made using Nuxt, Tailwindcss, Prisma, and Supabase.",

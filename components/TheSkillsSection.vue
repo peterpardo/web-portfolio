@@ -68,19 +68,18 @@ defineExpose({
 });
 
 const devIcons = [
-  'i-devicon-react',
-  'i-devicon-vuejs',
-  'i-devicon-nuxtjs',
-  'i-devicon-html5-wordmark',
-  'i-devicon-javascript',
-  'i-devicon-css3-wordmark',
-  'i-devicon-php',
-  'i-devicon-html5',
-  'i-devicon-laravel',
-  'i-devicon-amazonwebservices-wordmark',
-  'i-devicon-digitalocean-wordmark',
-  'i-devicon-nodejs-wordmark',
-  'i-devicon-mysql-wordmark',
-  'i-devicon-docker-wordmark',
+  "i-devicon-react",
+  "i-devicon-vuejs",
+  "i-devicon-nuxtjs",
+  "i-devicon-javascript",
+  "i-devicon-css3-wordmark",
+  "i-devicon-php",
+  "i-devicon-html5",
+  "i-devicon-laravel",
+  "i-devicon-amazonwebservices-wordmark",
+  "i-devicon-digitalocean-wordmark",
+  "i-devicon-nodejs-wordmark",
+  "i-devicon-mysql-wordmark",
+  "i-devicon-docker-wordmark",
 ];
 </script>
